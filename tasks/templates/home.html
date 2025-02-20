@@ -1,0 +1,29 @@
+{%  extends 'base.html' %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Django App</h1>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores aut corporis cum delectus dolores doloribus esse eveniet exercitationem fugit hic, illo illum in ipsam iure iusto modi molestias natus neque nihil nobis odio officia optio quam ratione sit suscipit totam ullam vero voluptatem. Ad, adipisci at beatae cumque deleniti, dolorum esse incidunt inventore ipsam ipsum maiores minima non, officiis pariatur praesentium provident soluta suscipit temporibus? Animi aspernatur corporis, deleniti deserunt dolor dolore eos, esse eum ex fugit in inventore iste maiores molestiae quidem totam ullam! Esse hic nostrum omnis provident quos soluta veritatis, voluptatum! Distinctio possimus, rerum. Odit, quam.</P>
+
+        <div class="text-center">
+            <a href="{% url 'signin' %}" class="btn btn-primary">Signin</a>
+            <a href="{% url 'signup' %}" class="btn btn-secondary">Signup</a>
+        </div>
+    </section>
+</main>
+
+
+</body>
+</html>
+
+{% endblock %}
